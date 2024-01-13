@@ -3,6 +3,7 @@
  
  This program uses request to get bible verses for web sites like biblegateway.com and then uses a python package to read the verse that converts it to .mp3 file 
  that can be used in Radio or anyother media.
+## config.ini
 ~~~ 
  [string_config]
  ; This will genrate ramdom verise for each day. 
@@ -12,7 +13,8 @@
  version = KJV
 ~~~
 
-~~~ ## BibleRd.py
+## BibleRd.py
+~~~ 
 import schedule as sch
 import configparser as ini
 import os
