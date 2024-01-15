@@ -59,6 +59,7 @@ def randomverse():
    print(string)
    tts= gTTS(string, lang='en', tld='us')
    tts.save('randverse.mp3')
+   page.close()
 
     
 def main(): 
